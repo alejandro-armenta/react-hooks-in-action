@@ -1,3 +1,5 @@
+import React from 'react'
+
 import {
   BrowserRouter as Router,
   Link,
@@ -9,7 +11,7 @@ import {
   FaCalendarAlt,
   FaDoorOpen,
   FaUsers,
-} from "react-icons"
+} from "react-icons/fa"
 
 import BookablesPage from "./Bookables/BookablesPage"
 
@@ -17,10 +19,7 @@ import BookingsPage from "./Bookings/BookingsPage"
 
 import UsersPage from "./Users/UsersPage"
 
-import {
-  UserPicker,
-} from "./Users/UserPicker"
-
+import UserPicker from "./Users/UserPicker"
 
 import "../App.css"
 
