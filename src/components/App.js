@@ -11,17 +11,11 @@ import {
   FaUsers,
 } from "react-icons"
 
-import {
-  BookablesPage,
-} from "./Bookables/BookablesPage"
+import BookablesPage from "./Bookables/BookablesPage"
 
-import {
-  BookingsPage,
-} from "./Bookings/BookingsPage"
+import BookingsPage from "./Bookings/BookingsPage"
 
-import {
-  UsersPage,
-} from "./Users/UsersPage"
+import UsersPage from "./Users/UsersPage"
 
 import {
   UserPicker,
